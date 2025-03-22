@@ -1,0 +1,183 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .jumbotron{
+      background-image: url('images.jpg');
+        background-size: cover;}
+    </style>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container">
+            <button type="button" class="btn btn-warning btn-lg order-1" data-bs-toggle="modal" data-bs-target="#resgister">Resgister</button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navagation">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-white" href="#">Disabled</a>
+                    </li>
+                </ul>
+                
+            </div> 
+        </div>
+    </nav>
+    <div class="modal fade" id="resgister" tabindex="-1" aria-labelledby="exampleModaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We’ll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid bg-primary text-center p-5">
+        <div class="container">
+            <h1 class="display-1">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+        
+    </div>
+    <div class="container pt-10">
+        <div class="row">
+            <div class="col">
+                <h3 class="mb-4">What is Lorem Ipsum?</h3>
+                <img src="images/download (1).jpg" class="img-fluid rounded"/>
+                <div align="justify">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="mb-4">Do we use it?</h3>
+                <div align="justify">
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The point
+                    of using Lorem Ipsum is that it has a more-or-less normal distribution
+                    of letters, as opposed to using 'Content here, content here', making
+                    it look like readable English. Many desktop publishing packages and web page editors
+                    now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                    uncover many web sites still in their infancy. Various versions have evolved over the years,
+                    sometimes by accident, sometimes on purpose (injected humour and the like).
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="mb-4">Why do we use it?</h3>
+                <div align="justify">
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                    is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English. Many desktop publishing packages and web page
+                    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
+                    many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+                    sometimes on purpose (injected humour and the like).
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-white" style="background-color: aliceblue;">
+        <div class="container p-4">
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-2 md-12 mb-4 mb-md-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <img src="images.jpg" class="w-100">
+                            <a href="#!">
+                                <div class="mask" style="background-color:rgba(red, green, blue, alpha)"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 md-12 mb-4 mb-md-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <img src="images.jpg" class="w-100">
+                            <a href="#!">
+                                <div class="mask" style="background-color:rgba(red, green, blue, alpha)"></div>
+                            </a>
+                        </div>   
+                    </div>
+                    <div class="col-lg-2 md-12 mb-4 mb-md-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <img src="images.jpg" class="w-100">
+                            <a href="#!">
+                                <div class="mask" style="background-color:rgba(red, green, blue, alpha)"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 md-12 mb-4 mb-md-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <img src="images.jpg" class="w-100">
+                            <a href="#!">
+                                <div class="mask" style="background-color:rgba(red, green, blue, alpha)"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 md-12 mb-4 mb-md-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <img src="images.jpg" class="w-100">
+                            <a href="#!">
+                                <div class="mask" style="background-color:rgba(red, green, blue, alpha)"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 md-12 mb-4 mb-md-0">
+                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                            <img src="images.jpg" class="w-100">
+                            <a href="#!">
+                                <div class="mask" style="background-color:rgba(red, green, blue, alpha)"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color:rgba( 0, 0, 0, 0.2);">
+            @ 2025 Copyright:
+            <a class="text-black" href="#">By Aye Chan Paing</a>
+        </div>
+    </footer>
+</body>
+</html>
